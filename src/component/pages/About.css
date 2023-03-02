@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+.About{
+    width: 100%;
+    height: auto;
+    
+    background: #0e171f;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    font-size: .8rem;
+    font-weight: 200;
+
+}
+.About h1{
+    text-align: center;
+    color: #fff;
+}
+.About-content{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.About-content .left{
+    margin-top: 3pc;
+    color: antiquewhite;
+    max-width: 490px;
+    justify-content: flex-start;
+}
+.About-content .left h2{
+    color: #17a2b8;
+    font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+    font-weight: 900;
+
+}
+.About-content .left h4{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
+}
+.About-content .left p{
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin: 1.2rem 0;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: clamp(0.75rem, 0.5938rem + 0.5vw, 0.875rem);
+
+}
+.right{
+    max-width: 500px;
+}
+
+.img-container{
+    width: 100%;
+    margin: auto;
+}
+.img-container .img{
+    width: 100%;
+    height: auto;
+}
+
+
+/***@media screen and (max-width: 1031px) {
+    .About{
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    .right .img{
+        min-width: 200px;
+        height: 300px;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .About{
+        text-align: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .right .img{
+        min-width: 200px;
+        height: 290px;
+        vertical-align: middle;
+    }
+
+    .About .left{
+        margin-top: 3pc;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+
+    .right .img{
+        height: 270px;
+    }
+
+}
+
+
+@media screen and (max-width: 385px) {
+
+    .right .img{
+        height: 260px;
+    }
+
+}
+@media screen and (max-width: 372px) {
+
+    .right .img{
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 358px) {
+
+    .right .img{
+        height: 240px;
+    }
+
+}***/

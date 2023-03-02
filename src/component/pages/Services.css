@@ -1,0 +1,66 @@
+.Services{
+    background: #0e171f;
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+
+
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 200;
+}
+.Services .parag{
+    font-size: 0.6rem;
+    opacity: 0.5;
+    color: #fff;
+    padding-bottom: 0.5rem;
+}
+
+.Services .service-title{
+    color: #fff;
+    font-size: 2.5rem;
+    padding-bottom: 6rem;
+}
+
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.content-box{
+    border: 1px solid #1d1c1c;
+    padding: 100px 10px 100px 10px;
+    background-color: #19242e;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow: 4px 5px 5px 0px #182430;
+
+    margin: 10px auto;
+    height: auto;
+
+    transition: transform 0.3s;
+}
+.content-box:hover{
+    transform: scale(0.9);
+}
+
+.content-box .icon{
+    font-size: 3rem;
+    opacity: 0.6;
+}
+
+.content-box h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    color: #fff;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+.Project{
+    background: #0e171f;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border: none;
+}
+.Project h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+.Project-content{
+    display: flex;    
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    justify-content: center;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-size: .8rem;
+    font-weight: 200;
+}
+.Project-content .card {
+    margin: 1pc auto;
+    max-width: 400px;
+    
+}
+
+.box{
+    max-height: 525px;
+    background-color: #20272e;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.box:hover{
+    transform: translateY(-3px);
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.projtitle{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    
+    padding-left: 20px;
+    color: rgb(54, 150, 214);
+    opacity: 1;
+}
+
+.projStats{
+    width: 20%;
+    margin: 0.3rem 1.3rem;
+    border-radius: 0.5rem;
+    padding: 3px;
+    background: rgb(51, 163, 145);
+    
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: #fff;
+}
+.inprog{
+    width: 30%;
+    background-color: rgb(57, 120, 214);
+}
+
+.descrip .projDescrip{
+    opacity: 0.3;
+    color: #ccc;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1.2rem 0;
+    
+    font-size: clamp(0.625rem, 0.3906rem + 0.75vw, 0.8125rem);
+    word-spacing: 0.2rem;
+}
+
+
+.tag-container{
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.small-boxes{
+    margin: 0.3rem;
+    padding: 10px;
+    border-radius: 0.3rem;
+    background-color: #283036;
+
+    font-weight: 900;
+}
+
+.box img{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: inline;
+    font-size: .7rem;
+    margin-right: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+.box a{
+    display: flex;
+    justify-content: flex-end;
+}
+.git{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+
+
+@media screen and (max-width: 699px) {
+    .Project .card {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+

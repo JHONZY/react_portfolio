@@ -1,0 +1,32 @@
+
+.section{
+    background: #0e171f;
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+    height: 100vh;
+    
+    color: #fff;
+}
+.section h1{
+    font-size: 5rem;
+    padding: 20px;
+}
+.section h2{
+    padding: 10px;
+    font-size: 2rem;
+}
+.section p{
+    padding-bottom: 30px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .section{
+        text-align: center;
+        align-items: center;
+
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
